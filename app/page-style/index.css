@@ -42,7 +42,10 @@
   float: left;
   margin: 5px;
 }
-
+.mapouter {
+  margin: auto;
+  width: 60%;
+}
 @media screen and (max-width: 600px){
   .info-text-img p {
     font-size: 18px;
