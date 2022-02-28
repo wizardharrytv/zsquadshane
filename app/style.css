@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'MagicDreams';
-    src: url('/asset/font/Magic-Dreams.ttf');
+    src: url('../asset/font/Magic-Dreams.ttf');
 }   
 #header  h1{
     padding-top: 0px;
