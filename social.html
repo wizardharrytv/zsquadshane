@@ -26,15 +26,28 @@
 <body>
     <h1>Social</h1>
     <h2>check out twitch</h2>
-<div>
+<!-- Twitch Channel Embedded-->
+<div class="row" align="center">
+    <h2>My Twitch Channel</h2>
+    <!-- Add a placeholder for the Twitch embed -->
+     <div id="twitch-embed"></div>
+  
+     <!-- Load the Twitch embed script -->
+     <script src="https://embed.twitch.tv/embed/v1.js"></script>
+  
+     <!-- Create a Twitch.Embed object that will render within the "twitch-embed" root element. -->
+     <script type="text/javascript">
+       new Twitch.Embed("twitch-embed", {
+         width: "100%",
+         height: 540,
+         channel: "zsquadshane",
+         muted: true
+       });
+     </script>
+     <!-- More Embed Options: https://dev.twitch.tv/docs/embed/ -->
+   </div>
 
-    <iframe src="https://player.twitch.tv/?channel=zsquadshane&parent=https://wizardharrytv.github.io/zsquadshane/social.html&autoplay=false" 
-    frameborder="0"
-    allowfullscreen="true" 
-    scrolling="no" 
-    height="540"
-    width="960"></iframe>
-</div>
+
 </body>
 
 <footer>
