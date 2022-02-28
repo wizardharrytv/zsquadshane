@@ -1,0 +1,43 @@
+.parallax {
+  height: auto;
+  width: 100%;
+}
+.welcome {
+  background-color: #545353;
+
+  position: relative;
+  text-align: center;
+  color: #05ff00;
+}
+.welcome h1 {
+  font-size: 5vw;
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-text-stroke: 1px black;
+}
+.welcome .brand {
+  position: absolute;
+  bottom: 5%;
+  left: 10px;
+  height: 20%;
+}
+
+.info{
+  background-color: #545353;
+}
+
+.info-text-img {
+  font-size: 1.5vw;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+
+.info img {
+  position: relative;
+  height: 15vw;
+  float: left;
+  margin: 5px;
+}
