@@ -26,10 +26,11 @@
 
 .info{
   background-color: #545353;
+  height: auto;
 }
 
 .info-text-img {
-  font-size: 1.5vw;
+  font-size: 24px;
   margin-left: 5%;
   margin-right: 5%;
 }
@@ -40,4 +41,16 @@
   height: 15vw;
   float: left;
   margin: 5px;
+}
+
+.test p{
+  font-size: 24px;
+}
+@media screen and (max-width: 600px){
+  .info-text-img p {
+    font-size: 18px;
+  }
+  .test p{
+    font-size: 18px;
+  }
 }
