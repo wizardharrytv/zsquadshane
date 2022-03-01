@@ -1,0 +1,24 @@
+body{
+  background-color: #E5E5E5;
+}
+.mapouter {
+  margin: auto;
+  width: 60%;
+  position: relative;
+  text-align: right;
+  height: 560px;
+  width: 940px;
+}
+.gmap_canvas {
+  overflow: hidden;
+  background: none !important;
+  height: 560px;
+  width: 940px;
+}
+.contact-me {
+  margin-left: 20%;
+}
+table {
+  margin: auto;
+  width: 60%;
+}

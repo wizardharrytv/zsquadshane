@@ -1,4 +1,6 @@
-
+body{
+    background-color: #C4C4C4;
+  }
 div, iframe{
     margin: 0 auto;
 }

@@ -2,6 +2,9 @@
   height: auto;
   width: 100%;
 }
+body{
+  background-color: #545353;
+}
 .welcome {
   background-color: #545353;
 
@@ -24,7 +27,7 @@
   height: 20%;
 }
 
-.info{
+.info {
   background-color: #545353;
   height: auto;
 }
@@ -34,8 +37,9 @@
   margin-left: 10%;
   margin-right: 10%;
 }
-
-
+.info-text-img h1, p {
+  text-align: center;
+}
 .info img {
   position: relative;
   height: 15vw;
@@ -46,7 +50,7 @@
   margin: auto;
   width: 60%;
 }
-@media screen and (max-width: 600px){
+@media screen and (max-width: 600px) {
   .info-text-img p {
     font-size: 18px;
   }

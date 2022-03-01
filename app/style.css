@@ -1,45 +1,55 @@
 @font-face {
-    font-family: 'MagicDreams';
-    src: url('../asset/font/Magic-Dreams.ttf');
+  font-family: "MagicDreams";
+  src: url("../asset/font/Magic-Dreams.ttf");
 }
-#header  h1{
-    padding-top: 0px;
+#header h1 {
+  padding-top: 0px;
 }
-body{
-    font-family: MagicDreams;
-    margin: 0;
+body {
+  font-family: MagicDreams;
+  margin: 0;
 }
-.top-nav{
-    margin:0;
-    padding:0;
-    border: 0;
-    text-align:center;
-    background-color: #545353;
+p,
+h3 {
+  -webkit-text-stroke: 0.2px #05ff00;
 }
-.top-nav li{    
-    display:inline;
-    font-size: 32px;
+#tnav {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  text-align: center;
+  background-color: #545353;
 }
-.top-nav a{
-    display:inline-block;
-    padding:10px;
-    text-decoration: none;
-    color: #f2f2f2;
-    transition: .4s;
+#tnav li {
+  display: inline;
+  font-size: 32px;
 }
-.top-nav a:hover {
-    background-color: #1CFF02;
-    color: #000;
+#tnav a {
+  display: inline-block;
+  padding: 10px;
+  text-decoration: none;
+  color: #f2f2f2;
+  transition: 0.4s;
 }
-.top-nav a.active{
-    background-color: #13c000;
-    color: #000;
+#tnav a:hover {
+  background-color: #1cff02;
+  color: #000;
+}
+#tnav a.active {
+  background-color: #13c000;
+  color: #000;
 }
 
-.top-nav img {
-    height: 28px;
+#tnav img {
+  height: 28px;
 }
 
-footer{
-    text-align: center;
+/* .sticky{
+    position: fixed;
+    top: 0;
+    width: 100%;
+} */
+
+footer {
+  text-align: center;
 }
