@@ -15,9 +15,12 @@ h3,
 p {
   text-align: center;
 }
-p,
+h1 {
+  font-size: xx-large;
+}
 h3 {
-  -webkit-text-stroke: 0.2px #05ff00;
+  font-size: x-large;
+  -webkit-text-stroke: 0.2px #000;
 }
 #tnav {
   margin: 0;
@@ -63,6 +66,32 @@ h3 {
   background-color: #e5e5e5;
 }
 
+#home,
+#travel,
+#package,
+#contact h1 + h2 + h3 {
+  -webkit-text-stroke: 0.2px #000;
+}
+
+#portfolio,
+#review,
+#merch h1 + h2 + h3 {
+  -webkit-text-stroke: 0.2px #fff;
+}
+
+#home,
+#travel,
+#package,
+#contact p {
+  color: #05ff00;
+}
+
+#portfolio,
+#review,
+#merch p {
+  color: #000;
+}
+
 /* HOME PAGE*/
 #home .parallax {
   height: auto;
@@ -94,7 +123,6 @@ h3 {
   height: auto;
 }
 #home .info-text-img {
-  font-size: 24px;
   margin-left: 10%;
   margin-right: 10%;
 }
@@ -113,25 +141,24 @@ p {
   width: 60%;
 }
 /* Package Page */
-#package table{
+#package table {
   margin-left: auto;
   margin-right: auto;
 }
 
-
 /* Merch Page*/
-#merch .store img{
+#merch .store img {
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
 
 /* Contact Page */
-#contact .info h3{
-  text-align: left ;
+#contact .info h3 {
+  text-align: left;
 }
 
-#contact table{
+#contact table {
   margin-left: auto;
   margin-right: auto;
 }
@@ -150,8 +177,6 @@ p {
   height: 560px;
   width: 940px;
 }
-
-
 
 @media screen and (max-width: 600px) {
   #home .info-text-img p {
