@@ -20,7 +20,6 @@ h1 {
 }
 h3 {
   font-size: x-large;
-  -webkit-text-stroke: 0.2px #000;
 }
 #tnav {
   margin: 0;
@@ -94,7 +93,6 @@ h1 + h2 + h3 {
 }
 #home .welcome {
   background-color: #545353;
-
   position: relative;
   text-align: center;
   color: #05ff00;
@@ -135,7 +133,6 @@ p {
   margin: auto;
   width: 60%;
 }
-
 #travel #galleryView {
   text-align: center;
 }
@@ -163,8 +160,9 @@ p {
 }
 
 /* Contact Page */
-#contact .info h3 {
+#contact .info h2 {
   text-align: left;
+  color: #05ff00;
 }
 
 #contact table {
