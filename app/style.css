@@ -2,25 +2,31 @@
   font-family: "MagicDreams";
   src: url("../asset/font/Magic-Dreams.ttf");
 }
+
 #header h1 {
   padding-top: 0px;
 }
+
 body {
   font-family: MagicDreams;
   margin: 0;
 }
+
 body h1,
 h2,
 h3,
 p {
   text-align: center;
 }
+
 h1 {
   font-size: xx-large;
 }
+
 h3 {
   font-size: x-large;
 }
+
 #tnav {
   margin: 0;
   padding: 0;
@@ -28,10 +34,12 @@ h3 {
   text-align: center;
   background-color: #545353;
 }
+
 #tnav li {
   display: inline;
   font-size: 32px;
 }
+
 #tnav a {
   display: inline-block;
   padding: 10px;
@@ -39,10 +47,12 @@ h3 {
   color: #f2f2f2;
   transition: 0.4s;
 }
+
 #tnav a:hover {
   background-color: #1cff02;
   color: #000;
 }
+
 #tnav a.active {
   background-color: #13c000;
   color: #000;
@@ -69,7 +79,7 @@ h3 {
 #travel,
 #package,
 #contact,
-h1 + h2 + h3 {
+h1+h2+h3 {
   -webkit-text-stroke: 0.2px #000;
 }
 
@@ -91,12 +101,14 @@ h1 + h2 + h3 {
   height: auto;
   width: 100%;
 }
+
 #home .welcome {
   background-color: #545353;
   position: relative;
   text-align: center;
   color: #05ff00;
 }
+
 #home .welcome h1 {
   font-size: 5vw;
   position: absolute;
@@ -105,30 +117,36 @@ h1 + h2 + h3 {
   transform: translate(-50%, -50%);
   -webkit-text-stroke: 1px black;
 }
+
 #home .welcome .brand {
   position: absolute;
   bottom: 5%;
   left: 10px;
   height: 20%;
 }
+
 #home .info {
   background-color: #545353;
   height: auto;
 }
+
 #home .info-text-img {
   margin-left: 10%;
   margin-right: 10%;
 }
+
 #home h1,
 p {
   text-align: center;
 }
+
 #home .info img {
   position: relative;
   height: 15vw;
   float: left;
   margin: 5px;
 }
+
 #home .mapouter {
   margin: auto;
   width: 60%;
@@ -138,12 +156,15 @@ p {
 #portfolio #galleryView {
   text-align: center;
 }
+
 #portfolio #galleryView .gallery {
   display: inline-table;
 }
+
 #portfolio #galleryView .gallery img {
   max-width: 350px;
 }
+
 #portfolio #galleryView .gallery .desc {
   padding: 15px;
   text-align: center;
@@ -153,17 +174,21 @@ p {
   overflow-wrap: break-word;
   max-width: 350px;
 }
+
 /* Travel */
 
 #travel #galleryView {
   text-align: center;
 }
+
 #travel #galleryView .gallery {
   display: inline-block;
 }
+
 #travel #galleryView .gallery img {
   max-width: 350px;
 }
+
 #travel #galleryView .gallery .desc {
   padding: 15px;
   text-align: center;
@@ -174,12 +199,41 @@ p {
   text-align: center;
 }
 
-/* Merch Page*/
-#merch .store img {
+/* brand Page*/
+#brand .store img {
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
+
+.container-img{
+  position: relative;
+  margin: 20px auto 0;
+  width: 100%;
+  max-width: 450px;
+}
+
+.container-img img {
+  display: block;
+  position: relative;
+  width: 100%;
+}
+.container-img .dwl-btn {
+  display:block; 
+  margin: 0 auto;
+  background-color: #000;
+  border: none;
+  color: #fff;
+  padding: 12px 30px;
+  cursor: pointer;
+  transition: 0.4s;
+  font-family: MagicDreams;
+  font-size: 32px;
+}
+.container-img .dwl-btn:hover {
+  background-color: limegreen;
+}
+
 
 /* Contact Page */
 #contact .info h2 {
@@ -195,6 +249,7 @@ p {
 #social-icons {
   text-align: center;
 }
+
 #social-icons img {
   width: 90px;
   -webkit-transition: all 0.2s ease-in-out;
@@ -203,10 +258,12 @@ p {
   -o-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
+
 #social-icons li {
   list-style: none;
   display: inline-block;
 }
+
 #social-icons img:hover {
   -webkit-transform: scale(1.2);
   -moz-transform: scale(1.2);
@@ -223,6 +280,7 @@ p {
   height: 560px;
   width: 940px;
 }
+
 #contact .gmap_canvas {
   overflow: hidden;
   background: none !important;
