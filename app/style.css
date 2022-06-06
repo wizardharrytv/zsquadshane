@@ -235,6 +235,41 @@ p {
 }
 
 
+.test-img{
+  text-align: center;
+}
+.test-img img{
+  height: 400px;
+  border: 20px;
+  padding: 10px;
+}
+
+.test-img .dwl-btn{
+  background-color: #000;
+  border: none;
+  color: #fff;
+  padding: 12px 30px;
+  cursor: pointer;
+  transition: 0.4s;
+  font-family: MagicDreams;
+  font-size: 32px;
+}
+.test-img .dwl-btn:hover {
+  background-color: limegreen;
+}
+
+@media screen and (max-width: 600px) {
+  .test-img .dwl-btn {
+    font-size: 18px;
+  }
+  .test-img img{
+    width: 100%;
+    height: auto;
+    border: 20px;
+    padding: 10px;
+  }
+}
+
 /* Contact Page */
 #contact .info h2 {
   text-align: left;
